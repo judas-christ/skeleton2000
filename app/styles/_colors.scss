@@ -1,0 +1,9 @@
+//colors
+$color-base: peachpuff;
+$color-accent: saturate(complement($color-base), 50%);
+
+$color-text: darken(desaturate($color-base, 40%), 70%);
+$color-background: lighten(desaturate($color-base, 20%), 20%);
+$color-link: darken($color-accent, 50%);
+$color-link--hover: lighten($color-link, 30%);
+$color-link--visited: lighten(desaturate($color-link, 70%), 5%);

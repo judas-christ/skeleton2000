@@ -1,0 +1,22 @@
+/////////////////////////
+// module
+/////////////////////////
+
+.button {
+  appearance: none;
+  background-color: $color-link;
+  color: $color-background;
+  padding: 1em;
+
+  @respond-to(m) {
+
+  }
+
+  @respond-to(l) {
+
+  }
+
+  @respond-to(xl) {
+
+  }
+}
