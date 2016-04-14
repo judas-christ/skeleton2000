@@ -2,7 +2,7 @@
   "name": "skeleton2000",
   "description": "Simple skeleton for web built with brunch",
   "author": "Daniel Hägglund",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": ""
@@ -13,7 +13,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "rollup-brunch": "file:../rollup-brunch",
+    "rollup-brunch": "judas-christ/rollup-brunch",
     "auto-reload-brunch": "^2.0.0",
     "clean-css-brunch": "^2.0.0",
     "css-brunch": "^2.0.0",

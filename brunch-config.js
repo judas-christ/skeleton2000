@@ -3,11 +3,11 @@ module.exports = {
   files: {
     javascripts: {
       joinTo: {
-        'app.js': 'app/scripts/*.js'
+        'scripts/app.js': 'app/scripts/*.js'
       }
     },
-    stylesheets: {joinTo: 'app.css'},
-    templates: {joinTo: 'app.js'}
+    stylesheets: {joinTo: 'styles/app.css'},
+    templates: {joinTo: 'scripts/app.js'}
   },
   plugins: {
     rollup: {
