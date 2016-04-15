@@ -1,12 +1,21 @@
 /////////////////////////
-// module
+// button
 /////////////////////////
 
 .button {
   appearance: none;
+  border: 0;
   background-color: $color-link;
   color: $color-background;
   padding: 1em;
+  line-height: inherit;
+  text-decoration: none;
+
+  &:visited,
+  &:active,
+  &:hover {
+    color: $color-background;
+  }
 
   @respond-to(m) {
 

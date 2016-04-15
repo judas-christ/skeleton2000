@@ -13,6 +13,11 @@ module.exports = {
     rollup: {
       format: 'iife',
       moduleName: 'none'
+    },
+    postcss: {
+      plugins: [
+        require('autoprefixer')(['last 3 versions'])
+      ]
     }
   },
   modules: {
