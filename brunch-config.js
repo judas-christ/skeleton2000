@@ -14,11 +14,15 @@ module.exports = {
       format: 'iife',
       moduleName: 'none'
     },
-    postcss: {
-      plugins: [
-        require('autoprefixer')(['last 3 versions'])
-      ]
+    autoprefixer: {
+      browsers: ["last 3 version"]
     }
+    // TODO: change to postcss-brunch, but it doesn't seem to work at the moment
+    // postcss: {
+    //   plugins: [
+    //     require('autoprefixer')(['last 3 versions'])
+    //   ]
+    // }
   },
   modules: {
     wrapper: false,
