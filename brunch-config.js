@@ -24,12 +24,14 @@ module.exports = {
     wrapper: false,
     definition: false
   },
+  npm: {
+    enabled: false
+  },
   conventions: {
     ignored: [
       /[\\/]_/,
       /vendor[\\/]node[\\/]/,
-      /vendor[\\/](j?ruby-.*|bundle)[\\/]/,
-      'app/scripts/lib/**/*'
+      /vendor[\\/](j?ruby-.*|bundle)[\\/]/
     ]
   }
 }
