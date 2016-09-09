@@ -1,0 +1,8 @@
+{
+  "extends": "tslint:latest",
+  "rules": {
+    "indent": [true, "spaces"],
+    "semicolon": false,
+    "quotemark": [true, "single", "avoid-escape"]
+  }
+}

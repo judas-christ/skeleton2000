@@ -6,7 +6,7 @@ export class TestClass {
   constructor(name) {
     this.name = name
   }
-  getName() {
+  public getName() {
     return this.name
   }
 }
