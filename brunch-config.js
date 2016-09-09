@@ -3,7 +3,7 @@ module.exports = {
   files: {
     javascripts: {
       joinTo: {
-        'scripts/app.js': 'app/scripts/*.js'
+        'scripts/app.js': 'app/scripts/*.ts'
       }
     },
     stylesheets: {joinTo: 'styles/app.css'},
@@ -11,8 +11,10 @@ module.exports = {
   },
   plugins: {
     rollup: {
+      extension: 'ts',
       format: 'iife',
-      moduleName: 'none'
+      moduleName: 'none',
+      plugins: [require('rollup-plugin-typescript')()]
     },
     postcss: {
       processors: [
